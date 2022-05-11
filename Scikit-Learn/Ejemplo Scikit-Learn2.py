@@ -1,7 +1,6 @@
 #IMPORTACIÓN DE LAS LIBRERIAS QUE SE UTILIZARÁN
-import pandas as pd
-import numpy as np
 import warnings
+import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
@@ -34,9 +33,6 @@ while opc!='No':
 
 #GRAFICACIÓN TENIENDO EN CUENTA LOS VALORES DEL CSV
 preds.plot(kind='bar',figsize=(18,8))
-plt.grid(linewidth='2')
-plt.grid(linewidth='2')
-plt.grid(None)
 plt.show()
 
 
